@@ -4,7 +4,7 @@ LOCAL_PATH := device/samsung/nobleltetmo
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_nobleltetmo_defconfig
+TARGET_KERNEL_CONFIG := cm_nobleltejv_defconfig
 
 # RIL
 BOARD_MODEM_TYPE := ss333
