@@ -1,0 +1,4 @@
+### Bluetooth
+vendor/firmware/bcm4359B1_V0083.0000.hcd
+vendor/firmware/bcm4359B1_V0083.0000_wisol.hcd
+
