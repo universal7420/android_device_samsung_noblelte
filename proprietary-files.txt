@@ -1,0 +1,5 @@
+### RIL
+lib/libsecnativefeature.so
+lib64/libsecnativefeature.so
+lib/libsec-ril.so
+lib64/libsec-ril.so
