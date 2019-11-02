@@ -1,6 +1,5 @@
-#!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015 The Android Open Kang Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,10 +14,14 @@
 # limitations under the License.
 #
 
-set -e
+LOCAL_PATH := device/samsung/nobleltejv
 
-export DEVICE=nobleltejv
-export DEVICE_COMMON=noblelte-common
-export VENDOR=samsung
+## device overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-./../$DEVICE_COMMON/extract-files.sh $@
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2018-08-01
+
+# Inherit from noblelte-common
+$(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
