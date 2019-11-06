@@ -25,3 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit from noblelte-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
+
+# Also get non-open-source specific aspects if available
+$(call inherit-product-if-exists, vendor/samsung/nobleltejv/nobleltejv-vendor.mk)
