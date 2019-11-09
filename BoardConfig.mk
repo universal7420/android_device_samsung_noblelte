@@ -23,8 +23,8 @@
 # inherit from noblelte-common
 -include device/samsung/noblelte-common/BoardConfigCommon.mk
 
-# Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/nobleltejv/nobleltejv-vendor.mk)
+# Inherit from proprietary vendor
+-include vendor/samsung/nobleltejv/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt,nobleltezt
