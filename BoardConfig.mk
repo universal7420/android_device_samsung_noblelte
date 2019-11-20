@@ -24,19 +24,19 @@
 -include device/samsung/noblelte-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
--include vendor/samsung/nobleltejv/BoardConfigVendor.mk
+-include vendor/samsung/noblelte/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt,nobleltezt
 
 # Bluetooth
-BOARD_BLUETOOTH_OID_BUILDCFG_INCLUDE_DIR := device/samsung/nobleltejv/bluetooth
+BOARD_BLUETOOTH_OID_BUILDCFG_INCLUDE_DIR := device/samsung/noblelte/bluetooth
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltejv/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/noblelte/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_nobleltejv_defconfig
+TARGET_KERNEL_CONFIG := lineageos_noblelte_defconfig
 
 # Radio
 BOARD_MODEM_TYPE := ss333
