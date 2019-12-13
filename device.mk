@@ -19,6 +19,9 @@ LOCAL_PATH := device/samsung/noblelte
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/noblelte/system.prop
+
 # Inherit from noblelte-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
 
