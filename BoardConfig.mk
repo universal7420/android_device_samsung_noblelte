@@ -20,8 +20,8 @@
 # definition file).
 #
 
-# inherit from noblelte-common
--include device/samsung/noblelte-common/BoardConfigCommon.mk
+# inherit from universal7420-common
+-include device/samsung/universal7420-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
 -include vendor/samsung/noblelte/BoardConfigVendor.mk

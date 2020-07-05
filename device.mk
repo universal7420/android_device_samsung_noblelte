@@ -22,8 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/noblelte/system.prop
 
-# Inherit from noblelte-common
-$(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
+# Inherit from universal7420-common
+$(call inherit-product, device/samsung/universal7420-common/universal7420-common.mk)
 
 # Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/noblelte/noblelte-vendor.mk)
