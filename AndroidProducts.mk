@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_noblelte.mk
+    $(LOCAL_DIR)/bliss_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_noblelte-user \
-    lineage_noblelte-userdebug \
-    lineage_noblelte-eng
+    bliss_noblelte-user \
+    bliss_noblelte-userdebug \
+    bliss_noblelte-eng
