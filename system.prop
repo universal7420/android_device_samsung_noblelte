@@ -1,4 +1,10 @@
 #
+# Display
+#
+
+ro.sf.lcd_density=560
+
+#
 # Ril
 #
 

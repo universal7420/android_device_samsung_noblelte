@@ -23,7 +23,7 @@
 LOCAL_PATH := $(call my-dir)
 
 # Support installing on all noblelte targets regardless of stability or bootability
-ifneq ($(filter noblelte nobleltedd nobleltedv nobleltejv nobleltektt nobleltelgt noblelteskt nobleltezt,$(TARGET_DEVICE)),)
+ifneq ($(filter noblelte nobleltedd nobleltedv nobleltejv nobleltektt nobleltelgt noblelteskt,$(TARGET_DEVICE)),)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
