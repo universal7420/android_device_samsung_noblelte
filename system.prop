@@ -4,8 +4,3 @@
 
 ro.sf.lcd_density=560
 
-#
-# Ril
-#
-
-ro.telephony.default_network=9
