@@ -22,6 +22,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/noblelte/system.prop
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2018-08-01
+    
 # Inherit from universal7420-common
 $(call inherit-product, device/samsung/universal7420-common/universal7420-common.mk)
 

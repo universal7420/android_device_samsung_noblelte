@@ -48,6 +48,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
     TARGET_DEVICE=noblelte \
-    PRIVATE_BUILD_DESC="nobleltejv-user 7.0 NRD90M N920CXXU3CQH6 release-keys"
+    PRIVATE_BUILD_DESC="nobleltejv-user 7.0 NRD90M N920CXXS5CRH3 release-keys"
 
-BUILD_FINGERPRINT := "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXU3CQH6:user/release-keys"
+BUILD_FINGERPRINT := "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXS5CRH3:user/release-keys"
