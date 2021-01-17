@@ -24,6 +24,7 @@
 -include device/samsung/universal7420-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
+-include vendor/samsung/noblelte-common/BoardConfigVendor.mk
 -include vendor/samsung/noblelte/BoardConfigVendor.mk
 
 # Assert
